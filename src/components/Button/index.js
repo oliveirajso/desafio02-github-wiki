@@ -2,12 +2,12 @@ import React from 'react'
 
 import { ButtonContainer } from './styles';
 
-function Button({onClick}) {
+function Button({ onClick, title }) {
   return (
-    <ButtonContainer onClick={onClick}>
-       Buscar
+    <ButtonContainer onClick={onClick} title={title}>
+      {title}
     </ButtonContainer>
-  )
+  );
 }
 
 export default Button
