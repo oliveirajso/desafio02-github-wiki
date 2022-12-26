@@ -1,13 +1,12 @@
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import gitLogo from "../assets/github.png";
-import Input from "../components/Input";
 import Button from "../components/Button";
+import Input from "../components/Input";
 import ItemRepo from "../components/ItemRepo";
 import { api } from "../services/api";
 
 import { Container } from "./styles";
-import Checkbox from "../components/Checkbox";
 
 function App() {
   const [currentRepo, setCurrentRepo] = useState("");
