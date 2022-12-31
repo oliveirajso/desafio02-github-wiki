@@ -45,7 +45,7 @@ function App() {
         placeholder="Digite o nome do repositório"
       />
 
-      {/* <Checkbox onChange={(e) => setCheckedTipoConsulta(e.target.value)} /> */}
+      <Checkbox onChange={(e) => setCheckedTipoConsulta(e.target.value)} />
       <Button
         onClick={handleSearchRepo}
         title={checkedTipoConsulta ? "Buscar usuarios" : "Buscar Projeto"}
